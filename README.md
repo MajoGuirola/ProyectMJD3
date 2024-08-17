@@ -1,11 +1,11 @@
 # ProyectMJD3
 Proyect for competition WRO 2024 Future Engineers
 
-2.	Introducción
+2.	Introduction
    
 We are MJD3, we are young people passionate about robotics and what it entails for the future, our goal as a group is to discover new methodologies in order to solve different problems related to this in the WRO Future Engineers competition.
 
-3.	Quienes somos:
+3. Who we are:
 
 María José Guirola          -    Group Leader, Software and Hardware Developer.
 
@@ -16,7 +16,7 @@ Diego Alejandro Rodríguez   -                In charge of the engineering journ
 Diego Alejandro Cartagena   -              Team Coach.
 
 
-5.	Estado del Proyecto:
+5.	Proyect Status:
    
 Our team approached the project with careful planning, including an analysis of previous competitions. We gathered detailed information from each competition, looking at the achievements and learnings provided.
  This review allowed us to understand the expected challenges and strategies we wanted to implement in the current competition. Then, with all the information gathered, we carefully read through all the competency documentation provided. We wanted to have everything already understood beforehand, especially the rules, technical requirements and evaluation criteria. 
@@ -26,9 +26,9 @@ Finally, we continued with the optimization of the prototype and the integration
 
 Undertaking the construction of our chassis was a challenge that we approached with determination and precision. From the outset, we ensured that the wheels would not slip at all while our vehicle was in motion, as this was critical to the vehicle's stability and steering. We conducted multiple experiments on the subject, testing different materials and assembly techniques, which resulted in a very efficient traction system. We also worked hard to ensure that the action system was precise and accurate, and that our vehicle could execute complex maneuvers with absolute forcefulness. Our level of control and precision would not have been possible without so much testing, and allowed us to meet the challenges of the project with confidence and creativity.
 
-4.1. Distribución de alimentación:
+4.1. Enery Supply Distribution:
 
-Investigamos que nuestros componentes ocupaban el siguiente amperaje y voltaje:
+We find out that our components occupied the following amperage and voltage:
 
 NAME--------AMOUNT-------AMPERAGE-----TOTAl AMPERAGE--------VOLTAGE
 
@@ -116,10 +116,10 @@ Battery Holder-----------------------2
 
 In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 1cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction.
 
-4.2.1. Desafía 
+4.2.1.   Open Challenge
 
 In this challenge we made use of the MPU6050 and the HC-SR04.
 The flow diagram is attached:
 
-4.2.2. Desafío de Obstáculos
+4.2.2. Obstacle Challenge
 
