@@ -64,47 +64,7 @@ The 4015 voltage regulator is also used to prevent damage to the Arduino due to 
 
 To begin, we must know what materials we have decided to use, and they are the following:
 
-Material List-------------------Amount
-
-HC-SR04--------------------------3
-
-Arduino UNO----------------------1
-
-Sensor Shield---------------------1
-
-Pixy Cam 2.1----------------------1
-
-DC Motor--------------------------1
-
-LN298-----------------------------1
-
-Power Button----------------------1
-
-SG90 Servo Motor------------------1
-
-4015 Voltage Regulator------------1
-
-18650 Batteries-------------------4
-
-Plastic rims----------------------4
-
-Gears-----------------------------2
-
-Metal Axles-----------------------2
-
-Switch----------------------------2
-
-Chasis with  3D printing ---------1
-
-Rubber Bands----------------------4
-
-Male-Female Jumpers---------------1
-
-Female-Female Jumpers-------------23
-
-Male-Male Jumpers-----------------13
-
-Battery Holder--------------------2
+![Captura de pantalla 2024-08-30 013600](https://github.com/user-attachments/assets/d044d629-0b3b-4860-860b-7fa0538f8b9e)
 
 In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 3cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction.
 ![OIP](https://github.com/user-attachments/assets/c1f1bbc2-9089-4ce9-bd6b-141e616ac50a)
