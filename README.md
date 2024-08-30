@@ -49,7 +49,8 @@ In general we use the rubber bands to generate “grip” on the tires, since wi
 
 Our car uses three distance sensors to decide its direction of turn depending on the value shown by these sensors, so it either makes a turn or not. If none of the sensors shows that it is more than 100 cm away, the car continues straight. If one of the sensors shows that it is too close to a wall, it turns away from the nearest wall to avoid hitting it. If a sensor shows more than 100 cm away from a wall, we decide that the car turns towards the side of the space; that is, if the space is on the left side, it turns left, and the same with the right side. Each time it turns, one is added to a variable that counts the turns. This variable is divided to calculate the turns the car has made. When the turns reach 3, the car stops.
 
-![¿Cuál es tu idea principal](https://github.com/user-attachments/assets/dd7be74f-94aa-486a-be79-e1b90ecafb7a)
+![Diagrama de flujo Desafio Abierto](https://github.com/user-attachments/assets/8c3d0f90-999e-4dcb-9a7e-6ef8dce0d366)
+
 
 4.2.2. Obstacle Challenge
 
