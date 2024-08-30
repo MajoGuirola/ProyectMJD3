@@ -15,6 +15,7 @@ Diego Alejandro Rodríguez   -                In charge of the engineering journ
 
 Diego Alejandro Cartagena   -              Team Coach.
 
+![foto de equipo](https://github.com/user-attachments/assets/64f3a5da-1f77-43cf-9ad8-2ee15b23fe44)
 
 3.	Proyect Status:
 
