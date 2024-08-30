@@ -56,3 +56,5 @@ Our car uses three distance sensors to decide its direction of turn depending on
 
 
 The Arduino first detects which object has been detected, whether green or red. When it has that value, it classifies it into 3 positions: if it is in the center, on the left, or on the right. If it is the green rectangle that has to turn left and the rectangle is on the right, the car will advance. If the green rectangle is in its center, it will maneuver to avoid it and return to its position. If the rectangle is on its left side or is very close, the car will go back or start to turn to the left side or it will also go back until the object is centered to do the maneuver to avoid it. The distance sensor reads if there is no wall to its left or right and turns to the side where there is no wall and adds it to the turn variable. At the end of the 3 turns, it will start to look for the parking space. When it detects the parking space, it will look for the best way to enter.
+
+![Diagrama de flujo Desafío con Obstáculos](https://github.com/user-attachments/assets/12abf354-9bf3-41a1-9de0-e6f1f4a1bd1d)
