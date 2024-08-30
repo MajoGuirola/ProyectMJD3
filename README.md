@@ -113,9 +113,7 @@ Battery Holder--------------------2
 In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 1cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction.
 
 4.2.1.   Open Challenge
-
-In this challenge we made use of the MPU6050 and the HC-SR04.
-The flow diagram is attached:
+Our car uses three distance sensors to decide its direction of turn depending on the value shown by these sensors, so it either makes a turn or not. If none of the sensors shows that it is more than 100 cm away, the car continues straight. If one of the sensors shows that it is too close to a wall, it turns away from the nearest wall to avoid hitting it. If a sensor shows more than 100 cm away from a wall, we decide that the car turns towards the side of the space; that is, if the space is on the left side, it turns left, and the same with the right side. Each time it turns, one is added to a variable that counts the turns. This variable is divided to calculate the turns the car has made. When the turns reach 3, the car stops.
 
 4.2.2. Obstacle Challenge
-
+The Arduino first detects which object has been detected, whether green or red. When it has that value, it classifies it into 3 positions: if it is in the center, on the left, or on the right. If it is the green rectangle that has to turn left and the rectangle is on the right, the car will advance. If the green rectangle is in its center, it will maneuver to avoid it and return to its position. If the rectangle is on its left side or is very close, the car will go back or start to turn to the left side or it will also go back until the object is centered to do the maneuver to avoid it. The distance sensor reads if there is no wall to its left or right and turns to the side where there is no wall and adds it to the turn variable. At the end of the 3 turns, it will start to look for the parking space. When it detects the parking space, it will look for the best way to enter.
