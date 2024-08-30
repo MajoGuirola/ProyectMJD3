@@ -1,11 +1,11 @@
 # ProyectMJD3
 Proyect for competition WRO 2024 Future Engineers
 
-2.	Introduction
+1.	Introduction
    
 We are MJD3, we are young people passionate about robotics and what it entails for the future, our goal as a group is to discover new methodologies in order to solve different problems related to this in the WRO Future Engineers competition.
 
-3. Who we are:
+2. Who we are:
 
 María José Guirola          -    Group Leader, Software and Hardware Developer.
 
@@ -16,8 +16,8 @@ Diego Alejandro Rodríguez   -                In charge of the engineering journ
 Diego Alejandro Cartagena   -              Team Coach.
 
 
-5.	Proyect Status:
-   
+3.	Proyect Status:
+
 Our group engaged the steps of the project with deliberate planning, including reviewing previous competitions. We collected detailed information from each competition, analyzing what skills and knowledge were assessed and what our achievements and learnings were. This informed our group's understanding of the known challenges we would experience in our current competition, as it aligned with which strategies/approaches we would build upon. Once we compiled all the information, we methodically reviewed the competency documentation, laying the groundwork to have everything understood in advance. Especially the rules, technical specifications and evaluation criteria. This positioned our team to have a firmer backing to make decisions, particularly with respect to components selection. We conducted a rigorous evaluation of our components available to us on the market, considering feasibility, price and compatibility tests on such components with our project. From this, we selected the best components that suited our needs and budget. Once we identified the best components we had to initiate our design process. Our group utilized a digital design capability to establish a model of the electronic circuit, with one of the best advantages of digital design was being able to visualize, anticipate and adapt possible challenges before developing our flying robot in physical reality. The development began physically our robot with the chassis. During the build we worked through many design changes with respect to the steering system due to space, strength, and speed of making the change; and later issues with regards to, voltage and current, false connection, frying Arduinos etc. By working through adjustments, many times constructive change through trying to improve the form and integration of our components to our power supply. Simultaneously we started with programming modules. We worked on our code with limited hardware, the electronic design tool, and while we helped achieve some stability.
 
 The construction of our chassis was an unprecedented endeavor that we faced with diligence and determination. From the very beginning, we ensured that the wheels would slip not at all as the vehicle moved - this was critical to the vehicle's stability and steering performance. We did a number of tests on this subject, used a variety of materials and joined pieces in different ways, each trial led to a very efficient traction system. We also worked hard to ensure that the action system worked both precise and accurately; hence the vehicle's ability to perform complex movements was both forceful and defensible. We could not have developed a level of control and precision without a million tests. Yet the iterations laid the groundwork for a world of confidence to approach project challenges with creativity moving forward.
@@ -70,45 +70,45 @@ Material List-------------------Amount
 
 HC-SR04--------------------------1
 
-MPU6050-------------------------1
+MPU6050--------------------------1
 
-Arduino UNO---------------------1
+Arduino UNO----------------------1
 
 Sensor Shield---------------------1
 
 Pixy Cam 2.1----------------------1
 
-DC Motor-------------------------1
+DC Motor--------------------------1
 
 LN298-----------------------------1
 
-Power Button---------------------1
+Power Button----------------------1
 
-SG90 Servo Motor----------------1
+SG90 Servo Motor------------------1
 
-4015 Voltage Regulator----------1
+4015 Voltage Regulator------------1
 
 18650 Batteries-------------------4
 
-Plastic rims------------------------4
+Plastic rims----------------------4
 
-Gears------------------------------2
+Gears-----------------------------2
 
-Metal Axles------------------------2
+Metal Axles-----------------------2
 
-Switch------------------------------2
+Switch----------------------------2
 
-Chasis with  3D printing -----------1
+Chasis with  3D printing ---------1
 
 Rubber Bands----------------------4
 
-Male-Female Jumpers--------------1
+Male-Female Jumpers---------------1
 
-Female-Female Jumpers------------23
+Female-Female Jumpers-------------23
 
-Male-Male Jumpers----------------13
+Male-Male Jumpers-----------------13
 
-Battery Holder-----------------------2
+Battery Holder--------------------2
 
 In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 1cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction.
 
