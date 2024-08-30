@@ -41,6 +41,7 @@ To begin, we must know what materials we have decided to use, and they are the f
 
 In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 3cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction.
 
+
 ![OIP](https://github.com/user-attachments/assets/c1f1bbc2-9089-4ce9-bd6b-141e616ac50a)
 
 4.2.1.   Open Challenge
