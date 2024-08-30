@@ -26,7 +26,7 @@ The construction of our chassis was an unprecedented endeavor that we faced with
 
 We find out that our components occupied the following amperage and voltage:
 
-![OIP](https://github.com/user-attachments/assets/c1f1bbc2-9089-4ce9-bd6b-141e616ac50a)
+![Captura de pantalla 2024-08-30 014126](https://github.com/user-attachments/assets/ad2aafde-81b8-4563-809a-2da347385790)
 
 The batteries we decided would meet our needs would be the 18650, these have between 3.7V and 4.2V and between 8800mAH and 9800mAH. So we decided to place our entire circuit in parallel except for the batteries since the battery holder was in series, thus giving us each battery holder a supply of 8V and 8800mAh maximum.
 We used two battery holders with each battery holder distributing power to the following components:
@@ -37,11 +37,11 @@ The 4015 voltage regulator is also used to prevent damage to the Arduino due to 
 
 To begin, we must know what materials we have decided to use, and they are the following:
 
-![Captura de pantalla 2024-08-30 014126](https://github.com/user-attachments/assets/afd4b7a0-e8f8-4de2-8255-9830b6d547c5)
-
-In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 3cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction.
 ![Captura de pantalla 2024-08-30 013600](https://github.com/user-attachments/assets/e8408c10-bd52-4527-adab-700ac866823c)
 
+In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 3cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction.
+
+![OIP](https://github.com/user-attachments/assets/c1f1bbc2-9089-4ce9-bd6b-141e616ac50a)
 
 4.2.1.   Open Challenge
 
