@@ -1,4 +1,4 @@
-# ProyectMJD3
+# Proyect MJD3
 Proyect for competition WRO 2024 Future Engineers
 
 1.	Introduction
@@ -45,14 +45,12 @@ To begin, we must know what materials we have decided to use, and they are the f
 
 ![Captura de pantalla 2024-08-30 013600](https://github.com/user-attachments/assets/fbba26c1-1556-4e37-ac11-b545dbe24009)
 
+![Circuito de conexiones](https://github.com/user-attachments/assets/485f045d-ad6e-4e8e-b763-cd8ceee091c7)
 
 In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 3cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction.
 
 
 ![OIP](https://github.com/user-attachments/assets/c1f1bbc2-9089-4ce9-bd6b-141e616ac50a)
-
-
-![Circuito de conexiones](https://github.com/user-attachments/assets/485f045d-ad6e-4e8e-b763-cd8ceee091c7)
 
 
 4.2.1.   Open Challenge
