@@ -45,9 +45,10 @@ To begin, we must know what materials we have decided to use, and they are the f
 
 ![Captura de pantalla 2024-08-30 013600](https://github.com/user-attachments/assets/fbba26c1-1556-4e37-ac11-b545dbe24009)
 
-![Circuito de conexiones](https://github.com/user-attachments/assets/485f045d-ad6e-4e8e-b763-cd8ceee091c7)
+![Circuito de conexiones](https://github.com/user-attachments/assets/0d6744ad-7557-4533-92b2-7462fae2ed09)
 
-In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 3cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction.
+
+In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 3cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction. In case we need more light in the competition for the part 1, we will use a flashlight extra that will have it´s own powerbank.
 
 
 ![OIP](https://github.com/user-attachments/assets/c1f1bbc2-9089-4ce9-bd6b-141e616ac50a)
@@ -69,7 +70,7 @@ The Arduino first detects which object has been detected, whether green or red. 
 ![Diagrama de flujo Desafío con Obstáculos](https://github.com/user-attachments/assets/12abf354-9bf3-41a1-9de0-e6f1f4a1bd1d)
 
 
-The Youtube videos are in this links:
+The Youtube videos are in these links:
 
 - Open Challenge: https://www.youtube.com/watch?v=KbBiJAI5IG0
 - Obstacle Challenge: https://youtube.com/shorts/LHwaTd2JDXg?si=Wgfol8oHPcuWUJ5E
