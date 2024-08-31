@@ -27,23 +27,33 @@ The construction of our chassis was an unprecedented endeavor that we faced with
 
 We find out that our components occupied the following amperage and voltage:
 
-![Captura de pantalla 2024-08-30 014126](https://github.com/user-attachments/assets/ad2aafde-81b8-4563-809a-2da347385790)
+
+![Captura de pantalla 2024-08-30 014126](https://github.com/user-attachments/assets/b131f130-f536-481a-a4e7-a454e418c565)
+
 
 The batteries we decided would meet our needs would be the 18650, these have between 3.7V and 4.2V and between 8800mAH and 9800mAH. So we decided to place our entire circuit in parallel except for the batteries since the battery holder was in series, thus giving us each battery holder a supply of 8V and 8800mAh maximum.
 We used two battery holders with each battery holder distributing power to the following components:
 
-![Captura de pantalla 2024-08-30 014020](https://github.com/user-attachments/assets/06ce46da-a4e2-4c6d-b010-13bf664e6c03) 
+
+![Captura de pantalla 2024-08-30 014020](https://github.com/user-attachments/assets/f6c3f84f-c84a-4073-8880-f97abb669bce)
+
 
 The 4015 voltage regulator is also used to prevent damage to the Arduino due to a higher voltage than it can withstand.
 
 To begin, we must know what materials we have decided to use, and they are the following:
 
-![Captura de pantalla 2024-08-30 013600](https://github.com/user-attachments/assets/e8408c10-bd52-4527-adab-700ac866823c)
+
+![Captura de pantalla 2024-08-30 013600](https://github.com/user-attachments/assets/fbba26c1-1556-4e37-ac11-b545dbe24009)
+
 
 In general we use the rubber bands to generate “grip” on the tires, since without this they slide on the track. The servo motor is to give direction to the car, the servo is anchored with a 3.5cm bolt to a piece printed with PLA that has connected the tires, thus performing the rotation of the tires. The motor has in its axis a gear of 3cm diameter, and the gear of the wheels axis measures 3cm allowing its rotation in reverse direction.
 
 
 ![OIP](https://github.com/user-attachments/assets/c1f1bbc2-9089-4ce9-bd6b-141e616ac50a)
+
+
+![Circuito de conexiones](https://github.com/user-attachments/assets/485f045d-ad6e-4e8e-b763-cd8ceee091c7)
+
 
 4.2.1.   Open Challenge
 
@@ -59,3 +69,9 @@ Our car uses three distance sensors to decide its direction of turn depending on
 The Arduino first detects which object has been detected, whether green or red. When it has that value, it classifies it into 3 positions: if it is in the center, on the left, or on the right. If it is the green rectangle that has to turn left and the rectangle is on the right, the car will advance. If the green rectangle is in its center, it will maneuver to avoid it and return to its position. If the rectangle is on its left side or is very close, the car will go back or start to turn to the left side or it will also go back until the object is centered to do the maneuver to avoid it. The distance sensor reads if there is no wall to its left or right and turns to the side where there is no wall and adds it to the turn variable. At the end of the 3 turns, it will start to look for the parking space. When it detects the parking space, it will look for the best way to enter.
 
 ![Diagrama de flujo Desafío con Obstáculos](https://github.com/user-attachments/assets/12abf354-9bf3-41a1-9de0-e6f1f4a1bd1d)
+
+
+The Youtube videos are in this links:
+
+- Open Challenge: https://www.youtube.com/watch?v=KbBiJAI5IG0
+- Obstacle Challenge: https://youtube.com/shorts/LHwaTd2JDXg?si=Wgfol8oHPcuWUJ5E
